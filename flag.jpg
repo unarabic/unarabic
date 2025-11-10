@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الجمهورية العربية المتحدة - المنصة الرسمية</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Cairo", sans-serif;
+      background-image: url("flag.jpg"); /* ضع هنا مسار علم الجمهورية */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: white;
+      text-align: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      backdrop-filter: brightness(0.5);
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      z-index: 1;
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+      padding: 20px;
+    }
+
+    img.logo {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      border: 2px solid #fff;
+      box-shadow: 0 0 15px #fff;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: #ffcc00;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      background-color: #ffcc00;
+      color: #000;
+      padding: 12px 25px;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .buttons a:hover {
+      background-color: #fff;
+      color: #000;
+      transform: scale(1.05);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="content">
+    <img src="logo.png" alt="شعار الجمهورية" class="logo">
+    <h1>الجمهورية العربية المتحدة</h1>
+    <h2>المنصة الرسمية</h2>
+    <p>الدينار العربي (DAD) — العملة الرقمية الموحدة للجمهورية العربية المتحدة.</p>
+
+    <div class="buttons">
+      <a href="parliament.html">البرلمان العربي الموحد</a>
+      <a href="bank.html">البنك المركزي للجمهورية</a>
+      <a href="elections.html">اللجنة الوطنية للانتخابات</a>
+    </div>
+  </div>
+
+  <footer>
+    جميع الحقوق محفوظة © الجمهورية العربية المتحدة - 2025
+  </footer>
+</body>
+</html>
