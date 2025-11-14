@@ -1,4 +1,4 @@
-# CLEAN-AI  # CLEAN-AI  
+dinararabtoken.sol# CLEAN-AI  # CLEAN-AI  
 **Autonomous AI System for Smart City Cleanliness and Environmental Monitoring**
 
 ## Overview  
