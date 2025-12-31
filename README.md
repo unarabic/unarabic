@@ -1,4 +1,23 @@
-// roles.js
+// auth.js
+import { roles } from "./roles.js";
+
+export function authorize(requiredPermission) {
+  return function (req, res, next) {
+    const userRole = req.user.role;
+
+    if (!roles[userRole]) {
+      return res.status(403).json({ message: "الدور غير معرّف في النظام." });
+    }
+
+    const permissions = roles[userRole].permissions;
+
+    if (!permissions.includes(requiredPermission)) {
+      return res.status(403).json({ message: "ليس لديك الصلاحية للقيام بهذا الإجراء." });
+    }
+
+    next();
+  };
+}// roles.js
 // تعريف صلاحيات النظام وفق دستور المنصة الافتراضية للجمهورية العربية المتحدة
 
 export const roles = {
