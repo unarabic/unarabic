@@ -1,4 +1,51 @@
-# الهوية الرقمية الوطنية – الجمهورية العربية المتحدة
+ <!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>المنصة الرقمية – الجمهورية العربية المتحدة</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #f4f4f4; direction: rtl; margin:0; padding:0; }
+  header { background: #004080; color: white; padding: 20px; text-align: center; }
+  nav { background: #0077cc; padding: 10px; text-align: center; }
+  nav a { color: white; margin: 0 10px; text-decoration: none; font-weight: bold; }
+  section { padding: 20px; background: white; margin: 20px; border-radius: 10px; }
+  footer { background: #004080; color: white; text-align: center; padding: 15px; margin-top:20px; }
+  .service-btn { display:inline-block; margin:5px; padding:10px 15px; background:#0077cc; color:white; border-radius:5px; cursor:pointer; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>الجمهورية العربية المتحدة – المنصة الرقمية</h1>
+  <p>البنك المركزي – الدينار العربي (DAD) | الإدارة الرقمية للخدمات العامة</p>
+</header>
+
+<nav>
+  <a href="#citizen">الخدمات للمواطن</a>
+  <a href="#finance">الخدمات المالية</a>
+  <a href="#ministries">الوزارات والرئاسة</a>
+  <a href="#contact">اتصل بنا</a>
+</nav>
+
+<section id="citizen">
+  <h2>خدمات المواطن</h2>
+  <div>
+    <span class="service-btn" onclick="showInfo('هوية')">الهوية الرقمية</span>
+    <span class="service-btn" onclick="showInfo('رخص')">رخص القيادة والتراخيص</span>
+    <span class="service-btn" onclick="showInfo('شكاوى')">الشكاوى والاستفسارات</span>
+  </div>
+  <div id="citizenInfo" style="margin-top:15px;"></div>
+</section>
+
+<section id="finance">
+  <h2>الخدمات المالية</h2>
+  <div>
+    <span class="service-btn" onclick="showInfo('محفظة')">المحافظ الرقمية</span>
+    <span class="service-btn" onclick="showInfo('تحويل')">التحويلات والمدفوعات</span>
+    <span class="service-btn" onclick="showInfo('تقارير')">تقارير المعاملات</span>
+  </div>
+  <div id="financeInfo" style="margin-top:15px# الهوية الرقمية الوطنية – الجمهورية العربية المتحدة
 
 ## تعريف الهوية الرقمية
 الهوية الرقمية الوطنية هي بطاقة رسمية لكل مواطن رقمي في الجمهورية العربية المتحدة، تمكنه من:
