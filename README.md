@@ -1,4 +1,4 @@
-// expansion of president powers in currency system
+ Digital_Constitution.md// expansion of president powers in currency system
 
 export const currencyAuthority = {
   "رئيس_الجمهورية": {
