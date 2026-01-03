@@ -329,3 +329,73 @@ Central Digital Governance Charter
 ---
 
 هذه الوثيقة هي المرجع القانوني والتنظيمي لأي نشاط داخل مشروع الجمهورية العربية المتحدة الافتراضية.
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تسجيل الهوية الرقمية – الجمهورية العربية المتحدة الافتراضية</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #f4f4f4; direction: rtl; margin:0; padding:0; }
+  header { background-color: #004080; color: white; padding: 20px; text-align: center; }
+  h1 { margin: 10px 0; }
+  section { padding: 20px; background: white; margin: 20px; border-radius: 10px; }
+  label { display: block; margin: 10px 0 5px; }
+  input[type="text"], input[type="email"], select { width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #ccc; }
+  button { margin-top: 15px; padding: 10px 15px; background: #0077cc; color: white; border: none; border-radius: 5px; cursor: pointer; }
+  .confirmation { margin-top: 20px; padding: 15px; background: #dff0d8; color: #3c763d; border-radius: 5px; display: none; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>تسجيل الهوية الرقمية</h1>
+  <p>الجمهورية العربية المتحدة الافتراضية</p>
+</header>
+
+<section>
+  <form id="registrationForm">
+    <label for="fullname">الاسم واللقب:</label>
+    <input type="text" id="fullname" required>
+
+    <label for="email">البريد الإلكتروني:</label>
+    <input type="email" id="email" required>
+
+    <label for="country">الدولة / القطر:</label>
+    <input type="text" id="country" required>
+
+    <button type="submit">تسجيل</button>
+  </form>
+
+  <div class="confirmation" id="confirmation">
+    شكراً لتسجيلك! رقم هويتك المؤقتة هو: <span id="userID"></span>
+  </div>
+</section>
+
+<script>
+  const form = document.getElementById('registrationForm');
+  const confirmation = document.getElementById('confirmation');
+  const userIDSpan = document.getElementById('userID');
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    const fullname = document.getElementById('fullname').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const country = document.getElementById('country').value.trim();
+
+    if(fullname && email && country){
+      // توليد رقم هوية مؤقت: مثال UAR-2026-XXXX
+      const randomID = Math.floor(1000 + Math.random() * 9000);
+      const userID = `UAR-2026-${randomID}`;
+      userIDSpan.textContent = userID;
+
+      confirmation.style.display = 'block';
+
+      // هنا يمكن ربط البريد الإلكتروني أو تخزين البيانات في قاعدة بيانات لاحقًا
+      form.reset();
+    }
+  });
+</script>
+
+</body>
+</html>
