@@ -1,25 +1,25 @@
 
-# DAD - عملة واحدة للعالم
-### قصة من ستة فصول تروي حكاية رمز DAD - كوادريليون واحد ضمّ ثمانية مليارات إنسان
+# DAD - One World, One Currency
+### A Global Sovereign Digital Currency for 8 Billion People
 
-**العقد: 1 كوادريليون ثابت للأبد على Polygon**
+> A 6-chapter story of 1 Quadrillion DAD - Open and scalable to 8 billion citizens.
+> Contract: 1 Quadrillion fixed forever on Polygon
 
-🎬 **الفيديو الوثائقي 6 دقائق - بالعربية الفصحى - صوت امرأة فصيح:**
-https://meta.ai/share/a/f2d0963
+🎬 **6-min Documentary (English Main):**
+https://www.meta.ai/share/a/f2d09634-3eec-4cf9-95ad-65fce29ce871
 
-🌍 **نسخة بكل اللغات (10 لغات):**
-https://meta.ai/share/a/f2d0963
+🌍 **10 Languages Version (Arabic, French, Spanish +7):**
+https://www.meta.ai/share/a/f2d09634-3eec-4cf9-95ad-65fce29ce871
 
 ---
+### Distribution
+- **40% Void Bank (400T)** - Locked Forever / Burned
+- Anti-Whale Rule: No wallet >0.1%
+- Target: 1.4B unbanked - Send for $0.10, not $10
 
-### التوزيع:
-- 40% بنك الفراغ (400T) - محروق للأبد
-- 35% المواطنون (350T)
-- 15% المطورون (150T)
-- 10% الحكومة (100T)
+### Contract
+- Network: Polygon
+- Supply: 1 Quadrillion DAD Fixed
 
-### Gitcoin Issue 465
-دراسة حالة DAD في Gitcoin GG24 - منفعة عامة عالمية لـ 1.4 مليار شخص بدون بنوك
-رسوم التحويل: 0.10$ بدل 10$
-
-github.com/unarabic
+---
+*For Arabic version, scroll down - النسخة العربية في الأسفل*
